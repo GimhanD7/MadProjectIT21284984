@@ -33,6 +33,12 @@ class ProfileActivity : AppCompatActivity() {
         dbRef= FirebaseDatabase.getInstance().getReference("Users")
         btnSave.setOnClickListener{
             saveUserData()
+
+
+//            val buttonedit=findViewById<Button>(R.id.EditButton)
+//            buttonedit.setOnClickListener{
+//                val Intent=Intent(this,UserDetailsActivity::class.java)
+//            }
         }
     }
     private fun saveUserData(){

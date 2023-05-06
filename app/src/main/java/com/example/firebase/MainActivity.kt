@@ -41,8 +41,14 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
         binding.profilemy.setOnClickListener{
             startActivity(Intent(this,ProfileActivity::class.java))
+            startActivity(intent)
+
+        }
+        binding.veiwdata.setOnClickListener{
+            startActivity(Intent(this,viewActivity::class.java))
             startActivity(intent)
 
         }

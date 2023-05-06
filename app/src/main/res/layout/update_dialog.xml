@@ -2,13 +2,12 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
     android:background="@drawable/profile_imge"
-    tools:context=".ProfileActivity"
+    tools:context="."
     >
 
 
@@ -126,35 +125,12 @@
             android:textColorHint="#000000" />
 
 
-<!--        <Button-->
-<!--            android:id="@+id/EditButton1"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="60dp"-->
-<!--            android:layout_marginLeft="20dp"-->
-<!--            android:layout_marginTop="380dp"-->
-<!--            android:layout_marginRight="20dp"-->
-<!--            android:backgroundTint="@color/green1"-->
-<!--            android:drawableStart="@drawable/profile_edit"-->
-<!--            android:text="@string/edit_profile_btn"-->
-<!--            android:textColor="@color/white"-->
-<!--            android:textSize="18sp"-->
-<!--            app:cornerRadius="20dp" />-->
 
-<!--        <Button-->
-<!--            android:id="@+id/DeleteButton"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="60dp"-->
-<!--            android:layout_marginLeft="20dp"-->
-<!--            android:layout_marginTop="440dp"-->
-<!--            android:layout_marginRight="20dp"-->
-<!--            android:backgroundTint="@color/green1"-->
-<!--            android:text="@string/profile_delete_account"-->
-<!--            android:textColor="@color/white"-->
-<!--            android:textSize="18sp"-->
-<!--            app:cornerRadius="20dp" />-->
+
+
 
         <Button
-            android:id="@+id/SaveButton"
+            android:id="@+id/SaveUpdateButton"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginLeft="20dp"
