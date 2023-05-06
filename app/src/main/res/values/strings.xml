@@ -26,5 +26,6 @@
     <string name="profile_delete_account">DELETE Profile</string>
     <string name="profile_log_out_btn">profile_log_out_btn</string>
     <string name="profile_save">Save</string>
+    <string name="profile_update">Update Data</string>
 
 </resources>

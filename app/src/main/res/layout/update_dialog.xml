@@ -7,7 +7,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:background="@drawable/profile_imge"
-    tools:context="."
+
     >
 
 
@@ -137,7 +137,7 @@
             android:layout_marginTop="500dp"
             android:layout_marginRight="20dp"
             android:backgroundTint="@color/green1"
-            android:text="@string/profile_save"
+            android:text="@string/profile_update"
             android:textColor="@color/white"
             android:textSize="18sp"
             app:cornerRadius="20dp" />

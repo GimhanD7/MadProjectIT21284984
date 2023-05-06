@@ -95,7 +95,7 @@ class UserDetailsActivity : AppCompatActivity() {
         val profile_phone_number = mDialogView.findViewById<EditText>(R.id.profile_phone_number)
         val profile_job = mDialogView.findViewById<EditText>(R.id.profile_job)
         val profile_descreption = mDialogView.findViewById<EditText>(R.id.profile_descreption)
-        val btnprofileUpdate = mDialogView.findViewById<Button>(R.id.btnprofileUpdate)
+        val btnprofileUpdate = mDialogView.findViewById<Button>(R.id.SaveUpdateButton)
 
         profile_username.setText(intent.getStringExtra("useName").toString())
         profile_email.setText(intent.getStringExtra("userEmail").toString())
