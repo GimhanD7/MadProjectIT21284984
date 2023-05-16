@@ -11,5 +11,8 @@ class Home : AppCompatActivity() {
         setContentView(R.layout.activity_home)
         supportActionBar?.title="Home"
         supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.WHITE))
+
+
+
     }
 }

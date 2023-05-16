@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">firebase</string>
+    <string name="app_name"> Design </string>
     <string name="no_data">Not Signed In</string>
     <string name="sign_in">Sign In</string>
     <string name="sign_out">Sign Out</string>
