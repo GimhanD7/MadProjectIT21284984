@@ -28,7 +28,7 @@ class LoginActivity : AppCompatActivity() {
             if(email.isNotEmpty() && password.isNotEmpty())
                 MainActivity.auth.signInWithEmailAndPassword(email,password).addOnCompleteListener{
                     if(it.isSuccessful){
-                        startActivity(Intent(this,MainActivity::class.java))
+                        startActivity(Intent(this, Afterligin::class.java))
                         finish()
                     }
                 }.addOnFailureListener{

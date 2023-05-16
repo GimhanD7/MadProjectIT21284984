@@ -18,6 +18,7 @@ class viewActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_view)
 
+        supportActionBar?.title="View"
         useRecycleView=findViewById(R.id.rvView)
         useRecycleView.layoutManager=LinearLayoutManager(this)
         useRecycleView.setHasFixedSize(true)
