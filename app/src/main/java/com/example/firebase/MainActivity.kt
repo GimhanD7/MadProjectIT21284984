@@ -103,7 +103,12 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.nav_rate_us->Toast.makeText(applicationContext,"Rate Us", Toast.LENGTH_LONG).show()
                 R.id.nav_trash->Toast.makeText(applicationContext,"Delete", Toast.LENGTH_LONG).show()
-                R.id.nav_settings->Toast.makeText(applicationContext,"Settings", Toast.LENGTH_LONG).show()
+                R.id.nav_settings-> {
+                    startActivity(Intent(this,SettingsActivity::class.java))
+                    drawerLayout.closeDrawers()
+                    true
+                    Toast.makeText(applicationContext, "Settings", Toast.LENGTH_LONG).show()
+                }
 
                 R.id.nav_share-> {
                     val shareIntent = Intent(Intent.ACTION_SEND)

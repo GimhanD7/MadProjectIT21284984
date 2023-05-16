@@ -1,6 +1,8 @@
 package com.example.firebase
 
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.MenuItem
 import android.widget.Toast
@@ -28,6 +30,8 @@ class Afterligin : AppCompatActivity() {
         setContentView(binding.root)
 
         supportActionBar?.title = "Login your profile"
+
+        supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.WHITE))
 
         binding.profilemy.setOnClickListener{
             startActivity(Intent(this, ProfileActivity::class.java))

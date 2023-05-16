@@ -1,6 +1,8 @@
 package com.example.firebase
 
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -14,7 +16,7 @@ class LoginActivity : AppCompatActivity() {
 //        emailFocusListener()
 
         supportActionBar?.title="Login"
-
+        supportActionBar?.setBackgroundDrawable(ColorDrawable(Color.WHITE))
         binding.registerTV.setOnClickListener{
             startActivity(Intent(this,RegisterActivity::class.java))
             finish()
